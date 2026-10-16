@@ -1,0 +1,12 @@
+/* Vintage rose: balanced starter. Ratios are a design starting point. */
+:root {
+  --rose-background: #CCD9D7; /* base surfaces */
+  --rose-brand: #348ABF;      /* identity and large graphic areas */
+  --rose-secondary: #3498BF;  /* small supporting details */
+  --rose-accent: #BF3F34;     /* important actions */
+  --rose-soft: #D9A3A3;       /* soft emphasis */
+  --rose-ink: #111111;        /* supporting neutral for readable text */
+  --rose-on-accent: #FFFFFF;
+}
+.rose-panel { background: var(--rose-background); color: var(--rose-ink); }
+.rose-button { background: var(--rose-accent); color: var(--rose-on-accent); }
