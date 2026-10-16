@@ -77,6 +77,7 @@ export const posts = [
         "Begin with one dominant blue and let the second blue occupy a smaller area. Keep pink and red unequal in size so that they read as accents instead of competing focal points. These swatches describe a mood, not an accessible interface by themselves: check each text and background pairing at its actual size. Use a darker text color when the pale gray and pink do not provide enough contrast."
       ]
     ],
+    "photoCredit": {"name":"Aleksandar Kyng","profileUrl":"https://unsplash.com/@aleksandarkyng","source":"Unsplash","photoUrl":"https://unsplash.com/photos/pink-rose-in-close-up-photography-KJGBY76mmS4"},
     "published": true,
     "datePublished": "2026-10-17"
   }
