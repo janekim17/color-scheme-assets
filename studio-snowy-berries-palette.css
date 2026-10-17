@@ -1,0 +1,11 @@
+/* Snowy berries: an sRGB starting palette. Print values need an output profile. */
+:root {
+  --winter-surface: #D1D2D4;
+  --winter-support: #737E67;
+  --winter-ink: #33462F;
+  --winter-accent: #BB5041;
+  --winter-detail: #AD713B;
+  --winter-on-accent: #FFFFFF;
+}
+.winter-card { background: var(--winter-surface); color: var(--winter-ink); }
+.winter-action { background: var(--winter-accent); color: var(--winter-on-accent); }

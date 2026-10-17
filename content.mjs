@@ -1,3 +1,4 @@
+import {winterPost} from './winter-guide.mjs';
 export const seasons = [
   "Spring",
   "Summer",
@@ -27,7 +28,7 @@ export const colors = {
   "Black": "#000000"
 };
 
-export const posts = [
+export const posts = [winterPost,
   {
     "slug": "vintage-muted-color-palette",
     "title": "Vintage muted color palette",
