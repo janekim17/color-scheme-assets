@@ -14,3 +14,6 @@ Keep its structure, section numbering, visual components, and concise writing st
 Use roseGuide() as the shared template. Change palette-specific colors, text, roles,
 examples, contrast calculations, and CSS. Do not add a long essay before the examples.
 Color 101 uses a separate educational article layout.
+
+Title format: [style or season] + [tone] + color palette.
+Examples: Vintage muted color palette / Winter muted color palette.

@@ -1,7 +1,7 @@
 import {roseGuide,contrast} from './rose-guide.mjs';
 export const winterPost={
   "slug": "snowy-berries-winter-color-palette",
-  "title": "Snowy berries winter color palette",
+  "title": "Winter muted color palette",
   "deck": "Five colors, three design directions. Compare the applications, check contrast, and take the CSS into your own project.",
   "image": "snowy-berries-winter-color-palette.png",
   "imageWidth": 1200,
