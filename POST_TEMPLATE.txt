@@ -1,0 +1,16 @@
+Color Scheme Studio — palette post template
+
+The first article, vintage-muted-color-palette.html, is the template for all palette posts.
+Keep its structure, section numbering, visual components, and concise writing style.
+
+1. Existing photo-left / palette-right header; full thumbnail and matching HEX values.
+2. Short introduction and four jump links.
+3. 01 — Three application studies with three dominant-color controls.
+4. 02 — Color roles with an area-ratio strip and five-row role table.
+5. 03 — Two contrast samples using the same background and different text colors.
+6. 04 — Starter CSS with copy and download controls.
+7. Short closing paragraph, category links, photo author and original source link.
+
+Use roseGuide() as the shared template. Change palette-specific colors, text, roles,
+examples, contrast calculations, and CSS. Do not add a long essay before the examples.
+Color 101 uses a separate educational article layout.
