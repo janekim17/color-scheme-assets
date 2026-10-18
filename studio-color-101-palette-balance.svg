@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<rect width="1200" height="1200" fill="#F1EEE7"/>
+<g font-family="Arial,sans-serif" fill="#394437"><text x="88" y="110" font-size="28" letter-spacing="5">COLOR 101</text><text x="1112" y="110" text-anchor="end" font-size="28">02</text></g>
+<text x="88" y="258" font-family="Georgia,serif" font-size="92" fill="#283D42">Find the balance.</text>
+<text x="90" y="320" font-family="Arial,sans-serif" font-size="28" fill="#64716A">Five colors. Unequal roles.</text>
+<rect x="88" y="390" width="560" height="490" rx="6" fill="#D1D2D4"/>
+<rect x="668" y="390" width="444" height="268" rx="6" fill="#33462F"/>
+<rect x="668" y="678" width="250" height="202" rx="6" fill="#737E67"/>
+<rect x="938" y="678" width="174" height="125" rx="6" fill="#BB5041"/>
+<rect x="938" y="823" width="174" height="57" rx="6" fill="#AD713B"/>
+<text x="130" y="462" font-family="Arial,sans-serif" font-size="26" letter-spacing="2" fill="#33462F">SURFACE</text>
+<text x="130" y="824" font-family="Georgia,serif" font-size="130" fill="#33462F">55</text><text x="293" y="824" font-family="Arial,sans-serif" font-size="33" fill="#33462F">%</text>
+<text x="704" y="459" font-family="Arial,sans-serif" font-size="26" letter-spacing="2" fill="#D1D2D4">STRUCTURE</text>
+<text x="704" y="614" font-family="Georgia,serif" font-size="110" fill="#D1D2D4">25</text>
+<text x="700" y="838" font-family="Georgia,serif" font-size="86" fill="#FFFFFF">12</text><text x="967" y="771" font-family="Georgia,serif" font-size="74" fill="#FFFFFF">6</text><text x="970" y="866" font-family="Arial,sans-serif" font-size="36" fill="#FFFFFF">2</text>
+<path d="M88 964H1112" stroke="#C8CBBF" stroke-width="2"/>
+<g font-family="Arial,sans-serif" fill="#53614F"><text x="88" y="1030" font-size="28">A starting sketch, not a fixed rule.</text><text x="88" y="1120" font-size="22" letter-spacing="2">COLOR SCHEME STUDIO</text></g>
+</svg>
