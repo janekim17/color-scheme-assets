@@ -1,6 +1,7 @@
+import {corgiPost} from './corgi-palette.mjs';
 import {contrast} from './rose-guide.mjs';
 const escape=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
-export const seasonalPosts=[
+export const seasonalPosts=[corgiPost,
 {slug:'winter-blue-color-palette',title:'Winter blue color palette',deck:'Snow-blue trees, a pale forest path, and a small trace of sunset. Try this winter palette in a walking journal, a trail notice, and a paper goods sleeve.',image:'winter-blue-color-palette.png',imageWidth:1200,imageHeight:1200,labels:['Winter','Neutral','Blue','Teal','White','Brown'],palette:[['Pine Shadow','0E232A'],['Nordic Blue','254A64'],['Frost Blue','809DB5'],['Snow Pearl','EAE4E9'],['Sunset Clay','BB937D']],photoCredit:{name:'Krists Luhaers',profileUrl:'https://unsplash.com/@kristsll',source:'Unsplash',photoUrl:'https://unsplash.com/photos/e_z1BLzRbS8'},datePublished:'2026-10-18',published:true,
  sections:[
  ['Let the path stay light.','Krists Luhaers’s forest photograph has a clear route through the color: dark trees frame the edges, blue snow fills the middle distance, and the pale path opens toward the horizon. The small peach glow stops the scene from becoming a single cold mass. Borrow that arrangement rather than covering a page with equal blue and peach panels. Use the pale color where people read, dark pine where the design needs definition, and clay where the eye should pause.'],

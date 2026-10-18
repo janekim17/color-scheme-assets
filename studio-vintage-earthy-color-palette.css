@@ -1,0 +1,12 @@
+/* Vintage earthy color palette: sRGB starting values, not print specifications. */
+:root {
+  --corgi-surface: #EDE3D9;
+  --corgi-ink: #212613;
+  --corgi-support: #4B4F27;
+  --corgi-detail: #CF925B;
+  --corgi-accent: #4B4F27;
+  --corgi-on-accent: #EDE3D9;
+}
+.corgi-cover { background: var(--corgi-surface); color: var(--corgi-ink); }
+.corgi-action { background: var(--corgi-accent); color: var(--corgi-on-accent); }
+/* Add a checked reading surface for extended body copy. */
