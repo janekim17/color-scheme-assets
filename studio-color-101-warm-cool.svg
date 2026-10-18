@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<rect width="1200" height="1200" fill="#F1EEE7"/>
+<g font-family="Arial,sans-serif" fill="#394437"><text x="88" y="110" font-size="28" letter-spacing="5">COLOR 101</text><text x="1112" y="110" text-anchor="end" font-size="28">03</text></g>
+<text x="88" y="258" font-family="Georgia,serif" font-size="92" fill="#283D42">Warm &amp; cool.</text>
+<text x="90" y="320" font-family="Arial,sans-serif" font-size="28" fill="#64716A">One palette. A different point of view.</text>
+<rect x="88" y="390" width="500" height="490" rx="6" fill="#254A64"/>
+<rect x="612" y="390" width="500" height="490" rx="6" fill="#C8886B"/>
+<circle cx="338" cy="617" r="125" fill="#C8886B"/>
+<circle cx="862" cy="617" r="125" fill="#254A64"/>
+<text x="130" y="830" font-family="Arial,sans-serif" font-size="27" letter-spacing="4" fill="#F1EEE7">COOL SETTING</text>
+<text x="654" y="830" font-family="Arial,sans-serif" font-size="27" letter-spacing="4" fill="#263B40">WARM SETTING</text>
+<path d="M88 964H1112" stroke="#C8CBBF" stroke-width="2"/>
+<g font-family="Arial,sans-serif" fill="#53614F"><text x="88" y="1030" font-size="28">Compare the relationship.</text><text x="88" y="1120" font-size="22" letter-spacing="2">COLOR SCHEME STUDIO</text></g>
+</svg>
