@@ -1,3 +1,4 @@
+import {siteInformation} from './site-information.mjs';
 import {seasonalPosts} from './seasonal-guides.mjs';
 import {winterPost} from './winter-guide.mjs';
 export const seasons = [
@@ -86,20 +87,11 @@ export const posts = [...seasonalPosts, winterPost,
 ];
 
 export const info = {
-  "about": {
-    "title": "About Color Scheme Studio",
-    "body": "<p>Color Scheme Studio turns photo-inspired palettes into practical design starting points. Explore a color combination, copy the values, and see how it behaves in a website, a poster, or packaging.</p><h2>See the colors at work</h2><p>Our guides connect inspiration with decisions: which color becomes the background, where an accent earns its place, and how to keep text readable. Interactive studies let you compare different balances before you take a palette into your own project.</p><h2>Make something with it</h2><p>Each complete guide includes color values, application notes, and useful starter material. Digital contrast checks cover the specific color pairs shown. CMYK conversions are estimates; print results depend on the printer, profile, and paper.</p>"
-  },
-  "color-101": {
-    "title": "Color 101",
-    "body": "<h2>Start with a role for each color</h2><p>A palette becomes useful when each color has a job. Choose a broad background, a readable text color, a supporting surface, and an accent. You do not need to use every swatch in equal amounts, or even use all five in the same design.</p><h2>Hue, saturation, and lightness</h2><p>Hue describes the color family, such as green or blue. Saturation describes how vivid or muted a color appears. Lightness helps separate elements: two different hues with similar lightness may still be difficult to distinguish in small text or a chart.</p><h2>Hex, RGB, and CMYK</h2><p>Hex is a compact way to write RGB values for a screen. RGB mixes red, green, and blue light. CMYK describes cyan, magenta, yellow, and black ink. The CMYK numbers shown on this site are approximate conversions; a printer’s color profile and paper choice affect the final result.</p><h2>Check contrast in context</h2><p>An attractive photograph does not automatically produce accessible text colors. Test foreground and background pairs at the font size and weight you will use. For normal text, WCAG AA uses a contrast ratio of at least 4.5:1; large text uses 3:1. Do not communicate an important state with color alone.</p><h2>Try a small layout first</h2><p>Make one card, one invitation, or one sample page before extending a palette across a project. A small test reveals whether the accent is too strong, the neutrals are too similar, or the background competes with the image.</p>"
-  },
-  "contact": {
-    "title": "Contact",
-    "body": "<p>Have a question about a palette, a correction, or a photographic credit? Contact the Color Scheme Studio project owner through our <a href=\"https://github.com/janekim17/color-scheme-studio-issues\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub issue tracker</a>.</p><p>Issues are public. Please do not include private or sensitive information.</p>"
-  },
-  "privacy": {
-    "title": "Privacy Policy",
-    "body": "<p>Last updated: October 17, 2026.</p><p>Color Scheme Studio is a static website operated by the owner of the linked project repository. This version has no advertising code, analytics, contact forms, accounts, or application cookies.</p><h2>Search and browsing</h2><p>Searches and category selections are processed in your browser. Search terms may appear in the page URL and your browser history. This application does not store them in a database.</p><h2>Hosting and external links</h2><p>The site is hosted on GitHub Pages. GitHub processes technical requests to serve the site; see <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub’s privacy statement</a>. Fonts and application assets are served with the site. Linked third-party websites have their own practices.</p><h2>Clipboard and downloads</h2><p>Copy buttons write only the selected color value or starter CSS to your clipboard when you choose them. The application does not read your clipboard. CSS downloads are static files.</p><h2>Advertising</h2><p>No ads are active in this version. This policy will be updated to describe the actual vendors, cookies, and relevant consent choices before advertising is enabled.</p><h2>Contact</h2><p>For privacy questions, contact the project owner through the <a href=\"https://github.com/janekim17/color-scheme-studio-issues\" target=\"_blank\" rel=\"noopener noreferrer\">project issue tracker</a>. Do not post sensitive details publicly.</p>"
-  }
+  about:siteInformation.about,
+  "color-101":{
+  "title": "Color 101",
+  "body": "<h2>Start with a role for each color</h2><p>A palette becomes useful when each color has a job. Choose a broad background, a readable text color, a supporting surface, and an accent. You do not need to use every swatch in equal amounts, or even use all five in the same design.</p><h2>Hue, saturation, and lightness</h2><p>Hue describes the color family, such as green or blue. Saturation describes how vivid or muted a color appears. Lightness helps separate elements: two different hues with similar lightness may still be difficult to distinguish in small text or a chart.</p><h2>Hex, RGB, and CMYK</h2><p>Hex is a compact way to write RGB values for a screen. RGB mixes red, green, and blue light. CMYK describes cyan, magenta, yellow, and black ink. The CMYK numbers shown on this site are approximate conversions; a printer’s color profile and paper choice affect the final result.</p><h2>Check contrast in context</h2><p>An attractive photograph does not automatically produce accessible text colors. Test foreground and background pairs at the font size and weight you will use. For normal text, WCAG AA uses a contrast ratio of at least 4.5:1; large text uses 3:1. Do not communicate an important state with color alone.</p><h2>Try a small layout first</h2><p>Make one card, one invitation, or one sample page before extending a palette across a project. A small test reveals whether the accent is too strong, the neutrals are too similar, or the background competes with the image.</p>"
+},
+  contact:siteInformation.contact,
+  privacy:siteInformation.privacy
 };

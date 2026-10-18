@@ -19,3 +19,12 @@ Title format: [style or season] + [tone] + color palette.
 Examples: Vintage muted color palette / Winter muted color palette.
 
 Editorial rule: share the layout and functional controls, not the body copy. Each palette needs its own photo analysis, use cases, color-role rationale, tested contrast guidance, and practical limitations. Do not produce color/name substitutions of an existing article. AdSense approval is not guaranteed.
+
+Color 101 thumbnail standard (approved by the owner, 2026-10-18)
+Use the four existing color-101-*.svg assets as the visual references.
+Create an original topic-specific graphic, rather than reusing a palette photograph.
+Keep the square 1200 x 1200 format, consistent margins, top COLOR 101 label and lesson number,
+serif headline, simple geometric color demonstration, thin footer rule, and studio signature.
+Use the warm off-white background by default; a dark background is appropriate when it explains the topic.
+Match the existing typography, spacing, and restrained composition. Change the graphic to explain each new article.
+Save the thumbnail with its article in the posting-management folder and use it on the Color 101 listing.
