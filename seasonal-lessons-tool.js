@@ -1,0 +1,5 @@
+import {contrastCases} from './seasonal-lessons.mjs';
+const pair=document.querySelector('#accent-pair');
+if(pair)pair.addEventListener('change',()=>{const c=contrastCases.find(c=>c.id===pair.value);const sample=document.querySelector('#accent-sample');sample.style.color='#'+c.fg;sample.style.backgroundColor='#'+c.bg;document.querySelector('#accent-result').textContent=c.ratio.toFixed(2)+':1 · '+(c.ratio>=4.5?'Meets AA for normal text.':c.ratio>=3?'Below AA for normal text; meets the large-text threshold.':'Below AA for normal and large text.');});
+const captions={cool:'Cool setting: blue defines the large field. The pale text and dark route label keep the reading roles distinct.',marker:'Warm marker: a pale reading field lets the small clay route label become the warm destination.',warm:'Warm setting: clay now defines the atmosphere. Blue becomes the smaller, contrasting route label.'};
+document.querySelectorAll('input[name="temperature"]').forEach(input=>input.addEventListener('change',()=>{document.querySelector('#temperature-card').dataset.mode=input.value;document.querySelector('#temperature-caption').textContent=captions[input.value];}));

@@ -1,0 +1,12 @@
+/* Winter blue color palette: sRGB starting values, not print specifications. */
+:root {
+  --forest-surface: #EAE4E9;
+  --forest-ink: #0E232A;
+  --forest-support: #254A64;
+  --forest-detail: #809DB5;
+  --forest-accent: #BB937D;
+  --forest-on-accent: #0E232A;
+}
+.forest-cover { background: var(--forest-surface); color: var(--forest-ink); }
+.forest-action { background: var(--forest-accent); color: var(--forest-on-accent); }
+/* Add a checked reading surface for extended body copy. */
