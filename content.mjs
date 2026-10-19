@@ -34,7 +34,7 @@ export const posts = [...seasonalPosts, winterPost,
   {
     "slug": "vintage-muted-color-palette",
     "title": "Vintage muted color palette",
-    "deck": "Five colors, three design directions. Compare the applications, check contrast, and take the CSS into your own project.",
+    "deck": "A rose-inspired vintage muted palette of sky blue, dusty pink, and faded vermilion. Copy five colors, compare three design applications, and take the CSS into your project.",
     "image": "rose.png",
     "labels": [
       "Summer",

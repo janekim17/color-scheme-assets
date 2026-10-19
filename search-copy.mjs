@@ -1,0 +1,7 @@
+export const paletteSearchDescriptions={
+'vintage-muted-color-palette':'A rose-inspired vintage muted color palette with blue, dusty pink, and vermilion. Copy five HEX and RGB colors, compare layouts, and download starter CSS.',
+'snowy-berries-winter-color-palette':'A winter muted color palette of snow gray, sage, evergreen, and berry red. Get five HEX and RGB colors with journal, invitation, and packaging ideas.',
+'winter-blue-color-palette':'A snowy forest winter blue color palette with deep pine, frost blue, and soft clay. Copy HEX and RGB values and explore three practical design examples.',
+'autumn-amber-color-palette':'An autumn amber color palette with gold, copper, plum, and dark ink. Copy five HEX and RGB colors and compare event, invitation, and gift packaging ideas.',
+'vintage-earthy-color-palette':'A corgi-inspired vintage earthy color palette with cream, tan, olive, and dusty pink. Copy HEX and RGB values and explore portrait and keepsake design ideas.'
+};

@@ -1,8 +1,8 @@
 import {seasonalLessonCards} from './seasonal-lessons.mjs';
 import {balanceCard} from './color-balance.mjs';
 export const guideSlug='hex-rgb-cmyk-guide';
-export const guideTitle='HEX, RGB & CMYK: what they mean and when to use them';
-export const guideDescription='Choose the right color values for a website, a social image, or a printed piece—with a real palette example and a HEX-to-RGB tool.';
+export const guideTitle='HEX vs RGB vs CMYK: differences and when to use each';
+export const guideDescription='Learn the differences between HEX, RGB, and CMYK, when to use each for screen or print, and how HEX converts to RGB with an interactive color tool.';
 export function guideHub(){return `<div class="learn-hub"><p class="eyebrow">Color 101 · Practical color guides</p><h1>Understand the colors you choose.</h1><p class="learn-deck">Simple explanations, useful examples, and small tools for your next design.</p><a class="lesson-card" href="${guideSlug}.html"><img class="lesson-photo" src="studio-color-101-color-formats.svg" width="1200" height="1200" alt="" loading="lazy"><div><p class="eyebrow">01 / Color fundamentals</p><h2>${guideTitle}</h2><p>One color, different ways to describe it. Learn which values belong in your digital and print workflow.</p><span class="lesson-link">Read the guide →</span></div></a>${balanceCard()}${seasonalLessonCards()}</div>`}
 export function guideArticle(){return `<article class="learn-article"><a class="post-back" href="color-101.html">← All Color 101 guides</a><header class="learn-heading"><p class="eyebrow">Color 101 / Color fundamentals</p><h1>${guideTitle}</h1><p class="learn-deck">You have found a color you love. Now which number should you copy? Start with where the design will be seen.</p><p class="learn-byline">By Color Scheme Studio · October 17, 2026 · 7 min read</p></header>
 <div class="learn-key"><strong>The quick answer</strong><p>For websites, use HEX or RGB. For social images and other screen graphics, work in RGB and export for sRGB. For a printed piece, ask the printer for the required color profile and file settings before converting.</p></div>
