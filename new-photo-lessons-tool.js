@@ -1,0 +1,5 @@
+import {mutedPairs} from './new-photo-lessons.mjs';
+const selector=document.querySelector('#muted-pair');
+if(selector)selector.addEventListener('change',()=>{const p=mutedPairs.find(p=>p.id===selector.value),sample=document.querySelector('#muted-sample');sample.style.backgroundColor='#'+p.bg;sample.style.color='#'+p.fg;document.querySelector('#muted-result').textContent=p.ratio.toFixed(2)+':1 · '+(p.ratio>=4.5?'Meets the 4.5:1 normal-text threshold.':'Below the 4.5:1 normal-text threshold.');});
+const formatNotes={web:'Website: linen is the reading surface. A blue action provides the repeated identity cue.',card:'Details card: blue becomes the cover field. Supporting dark ink keeps the short title readable; use a pale reverse for longer information.',sleeve:'Keepsake sleeve: sandstone becomes the broad face. Blue remains the smaller identity cue while the warm motif stays secondary.'};
+document.querySelectorAll('input[name="wedding-format"]').forEach(input=>input.addEventListener('change',()=>{document.querySelector('#wedding-format-card').dataset.format=input.value;document.querySelector('#wedding-format-note').textContent=formatNotes[input.value];}));

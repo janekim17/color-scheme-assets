@@ -1,4 +1,6 @@
 export const paletteSearchDescriptions={
+'winter-frosted-color-palette':'A frozen-bubble winter frosted color palette with blush, glacier blue, and lavender. Copy five HEX and RGB colors and explore journal, card, and sleeve designs.',
+'spring-soft-color-palette':'A spring soft color palette with powder blue, linen, sandstone, and warm clay. Copy HEX and RGB values and explore celebration and keepsake design ideas.',
 'vintage-muted-color-palette':'A rose-inspired vintage muted color palette with blue, dusty pink, and vermilion. Copy five HEX and RGB colors, compare layouts, and download starter CSS.',
 'snowy-berries-winter-color-palette':'A winter muted color palette of snow gray, sage, evergreen, and berry red. Get five HEX and RGB colors with journal, invitation, and packaging ideas.',
 'winter-blue-color-palette':'A snowy forest winter blue color palette with deep pine, frost blue, and soft clay. Copy HEX and RGB values and explore three practical design examples.',

@@ -1,0 +1,12 @@
+/* Spring soft color palette: sRGB starting values, not print specifications. */
+:root {
+  --vow-surface: #E8EAEB;
+  --vow-ink: #283D42;
+  --vow-support: #BC7A52;
+  --vow-detail: #E2B195;
+  --vow-accent: #95B9D6;
+  --vow-on-accent: #283D42;
+}
+.vow-cover { background: var(--vow-surface); color: var(--vow-ink); }
+.vow-action { background: var(--vow-accent); color: var(--vow-on-accent); }
+/* Add a checked reading surface for extended body copy. */

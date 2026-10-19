@@ -1,0 +1,12 @@
+/* Winter frosted color palette: sRGB starting values, not print specifications. */
+:root {
+  --frost-surface: #DDC6BF;
+  --frost-ink: #2D4150;
+  --frost-support: #1D4A72;
+  --frost-detail: #999EBB;
+  --frost-accent: #1D4A72;
+  --frost-on-accent: #DDC6BF;
+}
+.frost-cover { background: var(--frost-surface); color: var(--frost-ink); }
+.frost-action { background: var(--frost-accent); color: var(--frost-on-accent); }
+/* Add a checked reading surface for extended body copy. */
