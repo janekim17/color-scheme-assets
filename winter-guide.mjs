@@ -16,23 +16,23 @@ export const winterPost={
   ],
   "palette": [
     [
-      "Snow Veil",
+      "Soft Silver",
       "D1D2D4"
     ],
     [
-      "Winter Sage",
+      "Muted Sage",
       "737E67"
     ],
     [
-      "Deep Evergreen",
+      "Grounded Green",
       "33462F"
     ],
     [
-      "Frosted Berry",
+      "Muted Coral",
       "BB5041"
     ],
     [
-      "Amber Twig",
+      "Warm Ochre",
       "AD713B"
     ]
   ],
@@ -55,11 +55,11 @@ export const winterPost={
     ],
     [
       "Let snow and leaf colors do most of the work.",
-      "Begin with Snow Veil 55%, Deep Evergreen 25%, Winter Sage 12%, Frosted Berry 6%, and Amber Twig 2%. The large gray area echoes the snow, while dark green supplies the visual weight of the leaves. Red marks a destination; amber adds a small natural detail. These are illustrative proportions, not measured coverage of the photograph."
+      "Begin with Soft Silver 55%, Grounded Green 25%, Muted Sage 12%, Muted Coral 6%, and Warm Ochre 2%. The large gray area echoes the snow, while dark green supplies the visual weight of the leaves. Red marks a destination; amber adds a small natural detail. These are illustrative proportions, not measured coverage of the photograph."
     ],
     [
       "Pale snow needs a dark reading color.",
-      "White text disappears into Snow Veil: the pair has a contrast ratio of 1.51:1. Deep Evergreen on the same surface reaches 6.75:1 and meets the WCAG AA 4.5:1 threshold for normal text. White on Frosted Berry reaches 4.84:1. White on Winter Sage reaches only 4.28:1, so do not extend the white-on-red treatment to sage buttons without checking it."
+      "White text disappears into Soft Silver: the pair has a contrast ratio of 1.51:1. Grounded Green on the same surface reaches 6.75:1 and meets the WCAG AA 4.5:1 threshold for normal text. White on Muted Coral reaches 4.84:1. White on Muted Sage reaches only 4.28:1, so do not extend the white-on-red treatment to sage buttons without checking it."
     ],
     [
       "Choose the surface for the message.",

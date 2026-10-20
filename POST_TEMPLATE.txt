@@ -1,30 +1,42 @@
-Color Scheme Studio — palette post template
+Color Scheme Studio — practical palette editorial template
+Updated 2026-10-20 after the owner's direction change.
 
-The first article, vintage-muted-color-palette.html, is the template for all palette posts.
-Keep its structure, section numbering, visual components, and concise writing style.
+Purpose: help people turn attractive colors into usable combinations for real work.
+Do not describe the photograph or infer a photographer's intention. The photograph is
+extraction material only. Keep the full thumbnail and photo-left / palette-right header,
+exact five HEX values, title format, category links and bottom photo credit.
+Color names describe hue, lightness, saturation or mood, never photographed objects.
 
-1. Existing photo-left / palette-right header; full thumbnail and matching HEX values.
-2. Short introduction and four jump links.
-3. 01 — Three application studies with three dominant-color controls.
-4. 02 — Color roles with an area-ratio strip and five-row role table.
-5. 03 — Two contrast samples using the same background and different text colors.
-6. 04 — Starter CSS with copy and download controls.
-7. Short closing paragraph, category links, photo author and original source link.
+Source of truth:
+application-plans.mjs — suitable uses, limits, combinations and palette-specific 02/03.
+practical-guide.mjs — shared numbered presentation and selected role-sheet controls.
+color-roles.mjs — contrast and functional foreground selection.
+practical-lessons.mjs — revised Color 101 copy and interactive application examples.
+content.mjs maps original immutable metadata through revisePost().
+build-studio.mjs applies revised lesson metadata and content. Do not revive legacy
+photo-analysis bodies from earlier rose/winter/seasonal modules.
 
-Use roseGuide() as the shared template. Change palette-specific colors, text, roles,
-examples, contrast calculations, and CSS. Do not add a long essay before the examples.
-Color 101 uses a separate educational article layout.
+Introduction: identify useful project types and where the palette needs help.
+01 — Compare purposeful combinations. Change the field, panel, action, graphics and
+foregrounds coherently. Identify any added functional text colors separately.
+02 — A palette-specific decision: working subset, format, reading neutral or hierarchy.
+03 — A different palette-specific failure and alternative. Add measured pair comparisons
+where relevant. A text contrast ratio is not a complete design audit.
+04 — Copy/download the currently selected role sheet for non-code use.
+No mandatory percentage table or pale-background rule. Dark colors may be broad fields;
+pale colors may be emphasis. Omit colors without a useful job. Not every palette suits
+long documents, charts, websites and packaging equally. Do not force every use into a post.
 
 Title format: [style or season] + [tone] + color palette.
 Examples: Vintage muted color palette / Winter muted color palette.
+Keep published URLs stable when an educational title evolves.
 
-Editorial rule: share the layout and functional controls, not the body copy. Each palette needs its own photo analysis, use cases, color-role rationale, tested contrast guidance, and practical limitations. Do not produce color/name substitutions of an existing article. AdSense approval is not guaranteed.
+Color 101 explains decisions: use, roles, readable pairs, subsets, meaning beyond color,
+and output requirements. Keep its educational layout and the approved thumbnail style:
+square 1200 x 1200, consistent margins, COLOR 101 label/number, serif headline, simple
+topic-specific geometric demonstration, footer rule and studio signature. Default warm
+off-white; a dark field may explain a topic. Archive the updated text and topic thumbnail.
 
-Color 101 thumbnail standard (approved by the owner, 2026-10-18)
-Use the four existing color-101-*.svg assets as the visual references.
-Create an original topic-specific graphic, rather than reusing a palette photograph.
-Keep the square 1200 x 1200 format, consistent margins, top COLOR 101 label and lesson number,
-serif headline, simple geometric color demonstration, thin footer rule, and studio signature.
-Use the warm off-white background by default; a dark background is appropriate when it explains the topic.
-Match the existing typography, spacing, and restrained composition. Change the graphic to explain each new article.
-Save the thumbnail with its article in the posting-management folder and use it on the Color 101 listing.
+Image color picker stays local in the browser. Offer purpose-based role combinations and
+explicit additions, not an automatic suitability or accessibility certificate.
+Do not submit AdSense review as part of editorial publication.

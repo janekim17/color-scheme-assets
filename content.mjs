@@ -1,3 +1,4 @@
+import {revisePost} from './practical-guide.mjs';
 import {siteInformation} from './site-information.mjs';
 import {seasonalPosts} from './seasonal-guides.mjs';
 import {winterPost} from './winter-guide.mjs';
@@ -30,7 +31,7 @@ export const colors = {
   "Black": "#000000"
 };
 
-export const posts = [...seasonalPosts, winterPost,
+const originalPosts = [...seasonalPosts, winterPost,
   {
     "slug": "vintage-muted-color-palette",
     "title": "Vintage muted color palette",
@@ -46,23 +47,23 @@ export const posts = [...seasonalPosts, winterPost,
     ],
     "palette": [
       [
-        "Clear Sky",
+        "Soft Azure",
         "348ABF"
       ],
       [
-        "Lagoon Blue",
+        "Clear Cyan",
         "3498BF"
       ],
       [
-        "Mist Gray",
+        "Quiet Gray",
         "CCD9D7"
       ],
       [
-        "Faded Vermilion",
+        "Muted Vermilion",
         "BF3F34"
       ],
       [
-        "Dusty Rose",
+        "Gentle Pink",
         "D9A3A3"
       ]
     ],
@@ -85,6 +86,8 @@ export const posts = [...seasonalPosts, winterPost,
     "datePublished": "2026-10-17"
   }
 ];
+
+export const posts = originalPosts.map(revisePost);
 
 export const info = {
   about:siteInformation.about,
