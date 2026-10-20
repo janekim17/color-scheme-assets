@@ -1,4 +1,6 @@
 export const paletteSearchDescriptions={
+'winter-crimson-color-palette':'A snowy bird winter crimson color palette with red, blue-gray, charcoal, and burgundy. Copy five HEX and RGB colors and explore observation-themed designs.',
+'vintage-neutral-color-palette':'A bookshelf-inspired vintage neutral color palette with pale gray, sage, taupe, and rust. Copy HEX and RGB values and explore editorial and book-gift designs.',
 'winter-frosted-color-palette':'A frozen-bubble winter frosted color palette with blush, glacier blue, and lavender. Copy five HEX and RGB colors and explore journal, card, and sleeve designs.',
 'spring-soft-color-palette':'A spring soft color palette with powder blue, linen, sandstone, and warm clay. Copy HEX and RGB values and explore celebration and keepsake design ideas.',
 'vintage-muted-color-palette':'A rose-inspired vintage muted color palette with blue, dusty pink, and vermilion. Copy five HEX and RGB colors, compare layouts, and download starter CSS.',

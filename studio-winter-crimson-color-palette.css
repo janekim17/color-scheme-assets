@@ -1,0 +1,12 @@
+/* Winter crimson color palette: sRGB starting values, not print specifications. */
+:root {
+  --cardinal-surface: #B1C3D2;
+  --cardinal-ink: #2B3337;
+  --cardinal-support: #2B3337;
+  --cardinal-detail: #929294;
+  --cardinal-accent: #C4342D;
+  --cardinal-on-accent: #FFFFFF;
+}
+.cardinal-cover { background: var(--cardinal-surface); color: var(--cardinal-ink); }
+.cardinal-action { background: var(--cardinal-accent); color: var(--cardinal-on-accent); }
+/* Add a checked reading surface for extended body copy. */

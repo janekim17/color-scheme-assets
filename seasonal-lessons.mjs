@@ -1,3 +1,4 @@
+import {octoberLessons} from './october-lessons.mjs';
 import {newPhotoLessons} from './new-photo-lessons.mjs';
 import {photoColorLesson} from './photo-color-lesson.mjs';
 import {contrast} from './rose-guide.mjs';
@@ -8,7 +9,8 @@ export const seasonalLessons=[
 {slug:'how-to-combine-warm-and-cool-colors',title:'How to combine warm and cool colors',description:'Learn how to combine warm and cool colors using a winter blue palette. Compare three layouts, place warm accents, and check text contrast separately.',image:'color-101-warm-cool.svg',category:'03 / Color relationships',article:()=>warmArticle()},
 {slug:'bright-accents-on-dark-backgrounds',title:'How to use bright accents on dark backgrounds',description:'Learn how to use bright accents on dark backgrounds. Compare gold, copper, and plum color pairs with an interactive contrast checker and practical examples.',image:'color-101-dark-accents.svg',category:'04 / Light and contrast',article:()=>darkArticle()},
 photoColorLesson,
-...newPhotoLessons
+...newPhotoLessons,
+...octoberLessons
 ];
 export const contrastCases=[['gold-ink','0A080B','FDD000','Midnight Ink on Lantern Gold'],['gold-white','FFFFFF','FDD000','White on Lantern Gold'],['copper-white','FFFFFF','C16101','White on Copper Glow'],['copper-ink','0A080B','C16101','Midnight Ink on Copper Glow'],['plum-gold','FDD000','251C2B','Lantern Gold on Velvet Plum']].map(([id,fg,bg,label])=>({id,fg,bg,label,ratio:contrast(fg,bg)}));
 export function seasonalLessonCards(){return seasonalLessons.map(g=>`<a class="lesson-card" href="${g.slug}.html"><img class="lesson-photo" src="studio-${g.image}" width="1200" height="1200" alt="" loading="lazy"><div><p class="eyebrow">${g.category}</p><h2>${g.title}</h2><p>${g.description}</p><span class="lesson-link">Read the guide →</span></div></a>`).join('');}

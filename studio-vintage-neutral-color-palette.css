@@ -1,0 +1,12 @@
+/* Vintage neutral color palette: sRGB starting values, not print specifications. */
+:root {
+  --library-surface: #D4DADD;
+  --library-ink: #272C2C;
+  --library-support: #ABAEA7;
+  --library-detail: #A89B91;
+  --library-accent: #813528;
+  --library-on-accent: #FFFFFF;
+}
+.library-cover { background: var(--library-surface); color: var(--library-ink); }
+.library-action { background: var(--library-accent); color: var(--library-on-accent); }
+/* Add a checked reading surface for extended body copy. */
