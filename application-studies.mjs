@@ -1,0 +1,74 @@
+// Each palette has a different set of real-format exercises, not a reskinned common triplet.
+export const studySets={
+'vintage-muted-color-palette':[
+ ['newsletter','Editorial newsletter','Make blue the graphic identity, gray the reading field, and red one link. The two blues do not label separate categories.'],
+ ['workshop','Workshop announcement','A large date, a short subject, and a separated booking area need different levels of emphasis. Pink can be the lighter focal marker.'],
+ ['social','Social carousel cover','A square announcement needs one message. Keep secondary copy off the graphic and reserve one small edition label.']],
+'snowy-berries-winter-color-palette':[
+ ['service','Service information card','Group practical information on a quiet panel. Give the action its own block, instead of coloring every heading coral.'],
+ ['catalogue','Small catalogue spread','Keep item labels in the reading foreground. Use a repeated graphic family for identity and one warm edition marker.'],
+ ['menu','Menu and order summary','Align names and prices before adding color. A selected item can have one marker; ordinary rows need no competing fill.']],
+'winter-blue-color-palette':[
+ ['report','Report chapter opener','Use a broad blue field for a short chapter title. A separate inset carries the summary and chapter number.'],
+ ['article','Long-form reading page','Move the long paragraph onto the supporting surface. The cover field can remain in a slim navigation band.'],
+ ['schedule','Programme schedule','Separate times, session titles, and location labels. Warm emphasis identifies one selected session rather than every row.']],
+'autumn-amber-color-palette':[
+ ['event','Evening event poster','A dark field can support a short gold headline. Group the time and venue separately so decoration does not compete with the practical details.'],
+ ['ticket','Admission ticket','Keep the event name and admission details on distinct areas. A clear divider provides structure when dark shades sit together.'],
+ ['sleeve','Limited-edition sleeve','Give the product face a graphic color and the seal an accent color. Small production details need a separate checked foreground.']],
+'vintage-earthy-color-palette':[
+ ['stationery','Stationery pair','A note card and a business card can share a three-color subset. Keep the extra warm colors as alternatives rather than mandatory decoration.'],
+ ['label','Product label','Separate the brand name, product description, and practical details. The edition marker does not need to cover the whole face.'],
+ ['identity','Compact identity sheet','Show a primary wordmark, a small supporting pattern, and a reduced secondary treatment. Consistency comes from repeatable roles, not equal areas.']],
+'winter-frosted-color-palette':[
+ ['table','Comparison table','Use one tinted header, consistent dark values, and a single focus row. The remaining rows do not need separate pastel colors.'],
+ ['report','Professional report cover','Let a short title use a strong broad field. Keep the summary panel and its foreground independent from the cover colors.'],
+ ['chart','Focus-series chart','One annotated focus series and a quieter reference are easier to follow than five subtly different categories. Labels carry the meaning.']],
+'spring-soft-color-palette':[
+ ['invitation','Invitation front','Give names and date a clear hierarchy. An added dark foreground supports reading while the original colors remain in fields and decoration.'],
+ ['details','Event details card','A timetable and address need a plain reading panel. Decorative motifs stay separate from the information rather than sitting behind it.'],
+ ['tag','Keepsake tag','A short label can use a large soft field. Keep the edition or name readable and check the actual material before production.']],
+'winter-crimson-color-palette':[
+ ['campaign','Campaign poster','Use one large statement and a compact destination. A red-led field can be identity without making every detail an alert.'],
+ ['brief','Decision briefing','Keep ordinary numbers in the reading foreground. A single annotated result gets emphasis; the secondary facts stay quiet.'],
+ ['status','Status and action card','A status needs an explicit label and symbol. The button is a separate task, not another unlabeled red rectangle.']],
+'vintage-neutral-color-palette':[
+ ['portfolio','Portfolio case-study index','Numbered projects and a consistent thumbnail treatment create structure. Rust can identify a selected project without coloring every label.'],
+ ['magazine','Editorial opening spread','Separate the large title, reading column, and sidebar. The middle neutrals group content; they do not replace headings or rules.'],
+ ['book','Book-cover system','A broad warm or cool field can carry a compact title. A repeated spine and edition marker connect variations without identical proportions.']]
+};
+const chip=t=>`<span class="format-chip">${t}</span>`;
+const title=t=>`<h3>${t}</h3>`;
+const panel=t=>`<div class="format-panel">${t}</div>`;
+const graphic=t=>`<div class="format-graphic">${t}</div>`;
+const lines='<div class="format-lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div>';
+const rows=items=>`<div class="format-rows">${items.map(([a,b])=>`<div><span>${a}</span><b>${b}</b></div>`).join('')}</div>`;
+const templates={
+ newsletter:()=>`<small>THE OPEN EDIT / ISSUE 08</small>${title('Ideas worth<br>sharing.')}<div class="format-split">${graphic('<b>08</b><i></i>')}${panel('<b>THIS WEEK</b><p>A useful idea, explained clearly.</p>'+lines)}</div>${chip('Read the feature →')}`,
+ workshop:()=>`<small>STUDIO SESSIONS</small><div class="format-date">24<span>OCT / SATURDAY</span></div>${title('Make room<br>for ideas.')}<div class="format-bottom">${panel('<b>14:00 — 16:00</b><p>Small group / hands-on session</p>')}${chip('Reserve a place →')}</div>`,
+ social:()=>`<small>01 / 05 — A SMALL SERIES</small>${title('One idea.<br>Many ways<br>to use it.')}<div class="format-social-art" aria-hidden="true"><i></i><b></b></div><div class="format-bottom">${chip('START HERE')}<p>Swipe for the practical steps →</p></div>`,
+ service:()=>`<small>SERVICE / QUICK GUIDE</small>${title('Know your<br>next step.')}<div class="format-steps"><span><b>01</b> Choose a session</span><span><b>02</b> Review the details</span><span><b>03</b> Confirm your place</span></div>${panel('<b>Before you begin</b><p>Keep your reference number ready.</p>')}${chip('View available times →')}`,
+ catalogue:()=>`<small>THE CONSIDERED COLLECTION</small>${title('A smaller,<br>better edit.')}<div class="format-products">${graphic('<span>01</span>')}${panel('<span>02</span>')}</div>${rows([['Everyday notebook','$18'],['Compact journal','$12']])}${chip('EDITION / 02')}`,
+ menu:()=>`<small>ALL-DAY / MENU</small>${title('Something<br>simple.')}<div class="format-menu-heading">THE DAILY SELECTION</div>${rows([['House special','$14'],['Seasonal plate','$12'],['Small side','$6']])}${panel('<b>Order note</b><p>Ask about ingredients before ordering.</p>')}${chip('View the selection →')}`,
+ report:()=>`<small>RESEARCH / ANNUAL REVIEW</small><span class="format-chapter">03</span>${title('A clearer<br>way forward.')}<div class="format-bottom">${panel('<b>CHAPTER SUMMARY</b><p>What changed, what matters, and what comes next.</p>')}${chip('READ THE FINDINGS →')}</div>`,
+ article:()=>`<div class="format-reading-band">JOURNAL / PRACTICAL IDEAS</div>${panel('<small>READING / 06 MIN</small>'+title('Make the useful<br>part easy to find.')+'<p>Start with a clear question. Explain the decision before adding supporting detail.</p>'+lines+'<blockquote>A useful distinction deserves its own space.</blockquote>'+lines)}`,
+ schedule:()=>`<small>PROGRAMME / ONE AFTERNOON</small>${title('Time for<br>a good idea.')}<div class="format-schedule"><div><time>13:00</time><span><b>Welcome & introduction</b><small>MAIN ROOM</small></span></div><div class="format-panel"><time>14:00</time><span><b>Practical workshop</b><small>STUDIO / SELECTED</small></span></div><div><time>15:30</time><span><b>Questions & discussion</b><small>MAIN ROOM</small></span></div></div>${chip('Download programme →')}`,
+ event:()=>`<small>AFTER HOURS / AN INVITATION</small>${title('Stay for<br>the evening.')}<div class="format-event-art" aria-hidden="true"><i></i><b></b><span></span></div><div class="format-bottom">${panel('<b>24 OCT / 19:00</b><p>The Assembly Room</p>')}${chip('VIEW THE EVENING →')}</div>`,
+ ticket:()=>`<div class="format-ticket"><small>ADMIT ONE / EVENING SESSION</small>${title('After<br>hours.')}<p>Saturday / 24 October</p>${chip('GENERAL ADMISSION')}<div class="format-ticket-stub"><b>19:00</b><span>DOOR / A<br>SEAT / 024</span><div class="format-barcode" aria-hidden="true"></div><small>SAMPLE TICKET / NOT VALID</small></div></div>`,
+ sleeve:()=>`<small>PACKAGING / LIMITED EDITION</small><div class="format-box">${graphic('<small>THE EVENING EDIT</small>'+title('A little<br>something.')+'<p>A considered gift.<br>A lasting impression.</p>')}${chip('EDITION<br>NO. 08')}</div>${panel('<small>DETAILS PANEL</small><p>Contents / care / production information</p>')}`,
+ stationery:()=>`<small>IDENTITY / CORRESPONDENCE</small>${panel('<div class="format-letterhead"><b>COMMON<br>GROUND.</b><small>STUDIO / CORRESPONDENCE</small></div>'+lines+lines+'<p>With thanks,<br>The studio</p>')}<div class="format-business-card">${graphic('<b>common ground.</b><p>Independent design studio</p>')}${chip('HELLO →')}</div>`,
+ label:()=>`<small>PRODUCT / FRONT LABEL</small><div class="format-product-label">${panel('<small>COMMON GROUND / EVERYDAY GOODS</small>'+title('Daily<br>rituals.')+'<p>A useful object.<br>A thoughtful routine.</p><hr><small>DETAILS / 250 ML / EDITION 01</small>')}${chip('THE<br>ORIGINAL')}</div>`,
+ identity:()=>`<small>IDENTITY / THREE WORKING ROLES</small>${title('common<br>ground.')}<p>A quieter way to make a mark.</p><div class="format-identity-grid">${graphic('<b>cg.</b>')}${panel('<span>SECONDARY<br>WORDMARK</span>')}</div><div class="format-pattern" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>${chip('A SMALL SIGNATURE')}`,
+ table:()=>`<small>REPORT / A USEFUL COMPARISON</small>${title('Choose what<br>matters.')}<table class="format-table"><thead><tr><th>Option</th><th>Score</th><th>Cost</th></tr></thead><tbody><tr><th>Plan A</th><td>64</td><td>Low</td></tr><tr class="format-focus-row"><th>Plan B ★</th><td>82</td><td>Mid</td></tr><tr><th>Plan C</th><td>71</td><td>High</td></tr></tbody></table>${panel('<b>RECOMMENDATION / PLAN B</b><p>The selected row has one clear reason to stand out.</p>')}<small>ILLUSTRATIVE DATA</small>`,
+ chart:()=>`<small>DATA / FOCUS AND REFERENCE</small>${title('Show the<br>difference.')}<div class="format-chart"><div><b>Focus / 72</b><i class="format-focus-bar" style="width:72%"></i></div><div><b>Reference / 48</b><i style="width:48%"></i></div><div><b>Baseline / 35</b><i style="width:35%"></i></div></div>${panel('<b>+24 POINTS</b><p>Direct labels explain the comparison without a color-only legend.</p>')}<small>ILLUSTRATIVE DATA / NOT PERFORMANCE CLAIMS</small>`,
+ invitation:()=>`<small>TOGETHER WITH THEIR FAMILIES</small><div class="format-invitation-art" aria-hidden="true"><i></i><b></b></div><div class="format-invitation-type">${title('Alex<br><em>&</em> Jamie')}<p>invite you to celebrate</p>${chip('24 / 10 / 2026')}<p>THE GARDEN ROOM<br>Four o’clock in the afternoon</p></div>`,
+ details:()=>`<small>CELEBRATION / THE DETAILS</small>${title('A day<br>to remember.')}<div class="format-detail-grid">${panel('<b>WHEN</b><p>Saturday, 24 October<br>16:00 — late</p>')}${panel('<b>WHERE</b><p>The Garden Room<br>Venue address</p>')}${panel('<b>PLAN</b><p>Ceremony / Dinner<br>Conversation / Dancing</p>')}</div>${chip('View practical details →')}`,
+ tag:()=>`<small>STATIONERY / A SMALL THANK YOU</small><div class="format-tag"><i class="format-tag-hole"></i>${panel('<small>WITH LOVE</small>'+title('Thank<br>you.')+'<p>For being part<br>of our day.</p><hr><small>A & J / 24.10.26</small>')}</div><div class="format-tag-ribbon" aria-hidden="true"></div>`,
+ campaign:()=>`<small>A CALL TO TAKE PART</small>${title('Make<br>your next<br>move.')}<div class="format-campaign-number">01<span>ONE STEP<br>STARTS SOMETHING.</span></div><div class="format-bottom">${panel('<p>A short message.<br>A clear destination.</p>')}${chip('GET INVOLVED →')}</div>`,
+ brief:()=>`<small>BRIEFING / THE DECISION</small>${title('One result<br>to act on.')}<div class="format-key-number">${chip('72%')}<p>Priority measure<br>Illustrative value</p></div>${rows([['Reference','48%'],['Difference','+24 pts']])}${panel('<b>RECOMMENDED NEXT STEP</b><p>Explain the decision in a sentence, not in color alone.</p>')}`,
+ status:()=>`<small>INTERFACE / STATUS AND TASK</small>${title('Keep the<br>meaning clear.')}<div class="format-status-message">${panel('<b>ⓘ Details required</b><p>Add the missing date before continuing.</p>')}</div><div class="format-form-row"><span>Preferred date</span><b>Not selected</b></div>${chip('Choose a date →')}<div class="format-bottom"><small>VISIBLE LABEL + SYMBOL + ACTION</small><p>Static interface study, not a working form.</p></div>`,
+ portfolio:()=>`<small>SELECTED WORK / INDEX</small>${title('Thoughtful<br>work, clearly<br>presented.')}<div class="format-portfolio-item">${graphic('<span>01</span>')}<p><b>Project one</b><br>Identity / Editorial</p></div><div class="format-portfolio-item">${panel('<span>02</span>')}<p><b>Project two</b><br>Strategy / Digital</p></div>${chip('VIEW A CASE STUDY →')}`,
+ magazine:()=>`<small>JOURNAL / OPENING SPREAD</small>${title('Less noise.<br>More meaning.')}<div class="format-magazine-grid"><div><p>A clear opening makes room for a useful argument.</p>${lines}${lines}</div>${panel('<b>IN BRIEF</b><p>One supporting point, separated from the main reading column.</p>')}</div><div class="format-magazine-rule"></div><small>ESSAY / 08 — 09</small>`,
+ book:()=>`<small>PUBLISHING / COVER AND SPINE</small><div class="format-book"><div class="format-book-spine">THE QUIET EDIT</div>${panel('<small>ESSAYS / VOLUME 01</small>'+title('The<br>quiet<br>edit.')+'<p>A collection of<br>considered ideas.</p>'+chip('STUDIO EDITIONS'))}</div>`
+};
+export function applicationStudies(slug){const studies=studySets[slug];if(!studies)throw Error('Missing study set: '+slug);return `<div class="format-studies" data-study-set="${slug}">${studies.map(([type,name,note])=>`<figure data-study-type="${type}"><div class="format-art type-${type}">${templates[type]()}</div><figcaption><h3>${name}</h3><p>${note}</p></figcaption></figure>`).join('')}</div><p class="format-disclosure">Original illustrative layouts. Names, dates, products, and data are fictional examples, not offers, events, or performance claims.</p>`;}

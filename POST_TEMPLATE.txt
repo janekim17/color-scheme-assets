@@ -40,3 +40,5 @@ off-white; a dark field may explain a topic. Archive the updated text and topic 
 Image color picker stays local in the browser. Offer purpose-based role combinations and
 explicit additions, not an automatic suitability or accessibility certificate.
 Do not submit AdSense review as part of editorial publication.
+
+2026-10-20 further correction: application-studies.mjs contains the distinct, palette-specific format sets. Never restore the same editorial/poster/package triplet on every post. application-review.mjs contains a relevant comparison for each palette and follows the selected direction via data-use-review. Retain a section only when it resolves a useful decision; do not fill a fixed section quota.
