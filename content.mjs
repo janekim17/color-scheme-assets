@@ -1,3 +1,4 @@
+import {dailyPalettes} from './daily-palettes.mjs';
 import {revisePost} from './practical-guide.mjs';
 import {siteInformation} from './site-information.mjs';
 import {seasonalPosts} from './seasonal-guides.mjs';
@@ -31,7 +32,7 @@ export const colors = {
   "Black": "#000000"
 };
 
-const originalPosts = [...seasonalPosts, winterPost,
+const originalPosts = [...dailyPalettes, ...seasonalPosts, winterPost,
   {
     "slug": "vintage-muted-color-palette",
     "title": "Vintage muted color palette",

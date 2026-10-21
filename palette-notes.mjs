@@ -97,5 +97,16 @@ export const paletteNotes = {
       3,
       4
     ]
+  ],
+  "summer-vivid-color-palette": [
+    "Golden yellow with a fresh green edge",
+    "Bright Gold and Fresh Chartreuse bring the strongest energy to this palette: one warm and yellow, the other sharper and green. Soft Chalk and Cool Mist soften that intensity with pale neutral surfaces, while Warm Umber adds an earthy counterweight. In the previews, the yellow and green shapes stand against chalk, with cool gray around the warmer details and umber anchoring the smaller action.",
+    [
+      0,
+      3,
+      1,
+      4,
+      2
+    ]
   ]
 };
