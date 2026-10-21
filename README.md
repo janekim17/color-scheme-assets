@@ -1,9 +1,9 @@
 # Color Scheme Studio
 
-Photo-inspired palettes with original application studies and useful color tools.
+A collection of five-colour palettes, colour learning articles and a browser-based image colour picker.
 
-Site: https://colorschemestudio.com
+Live site: https://colorschemestudio.com
 
-First article: Vintage muted color palette.
+Palette pages include individual introductions, HEX/RGB values, approximate CMYK values and small website, mobile and card previews. Color 101 covers colour knowledge independently of the palette collection.
 
-This directory is a generated static release. Existing repository logo/icon files are preserved; website assets use the studio- prefix. Publish main / root with GitHub Pages.
+This directory contains the static GitHub Pages release. Website assets use the studio- prefix. Publish from main / root.
