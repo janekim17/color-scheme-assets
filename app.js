@@ -22,7 +22,7 @@ if(info[slug])document.querySelectorAll(`a[href="${slug}.html"]`).forEach(a=>a.c
 if(currentPost&&document.querySelector('#recommendations')){let others=posts.filter(p=>p.slug!==currentPost.slug).map(p=>({p,n:p.labels.filter(x=>currentPost.labels.includes(x)).length,r:Math.random()}));let recommended=others.filter(p=>p.n>=2).sort((a,b)=>a.r-b.r);recommended.push(...others.filter(p=>p.n===1));document.querySelector('#recommendations').innerHTML=recommended.slice(0,4).map(x=>card(x.p)).join('')}
 let closing=false;
 function closePanel(){if(closing)return;closing=true;panel.classList.add('closing');setTimeout(()=>{panel.close();panel.classList.remove('closing');toggle.setAttribute('aria-expanded','false');document.body.style.overflow='';toggle.focus();closing=false},300)}
-toggle.addEventListener('click',()=>{panel.showModal();toggle.setAttribute('aria-expanded','true');document.body.style.overflow='hidden'});
+toggle.addEventListener('click',()=>{panel.showModal();panel.querySelector('.close').focus({preventScroll:true});toggle.setAttribute('aria-expanded','true');document.body.style.overflow='hidden'});
 document.querySelector('.close').addEventListener('click',closePanel);
 panel.addEventListener('cancel',e=>{e.preventDefault();closePanel()});
 panel.addEventListener('click',e=>{const r=panel.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right)closePanel()});

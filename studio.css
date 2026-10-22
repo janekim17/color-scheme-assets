@@ -30,3 +30,6 @@ footer{border-top:1px solid var(--line)}.footer-inner{width:var(--width);max-wid
 .journal-palette .palette-cell{padding-top:3px;padding-bottom:3px}.journal-palette .palette-cell .copy{padding-top:2px;padding-bottom:2px}
 @media(max-width:759px){.journal-palette .palette-cell{padding-top:11px;padding-bottom:11px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Keep opening the menu from focusing a small input and zooming iOS Safari. */
+@media(max-width:1099px){.panel .search input{font-size:16px}.panel{box-sizing:border-box}.panel-header{gap:16px}.panel .close{flex:0 0 44px;min-height:44px}.panel-search{min-width:0;max-width:calc(100% - 60px)}.panel-body{padding-bottom:calc(36px + env(safe-area-inset-bottom,0px))}}
