@@ -1,5 +1,5 @@
-import {dailyPalettes} from './daily-palettes.mjs';
-import {revisePost} from './practical-guide.mjs';
+import {dailyPalettes} from './daily-palettes.mjs?v=20261022';
+import {revisePost} from './practical-guide.mjs?v=20261022';
 import {siteInformation} from './site-information.mjs';
 import {seasonalPosts} from './seasonal-guides.mjs';
 import {winterPost} from './winter-guide.mjs';
