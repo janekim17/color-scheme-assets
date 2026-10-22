@@ -108,5 +108,16 @@ export const paletteNotes = {
       4,
       2
     ]
+  ],
+  "autumn-rich-color-palette": [
+    "Warm depth, cooled by muted blue",
+    "Soft Buff and Muted Steel create a gentle warm–cool contrast, while Deep Vermilion, Antique Ochre and Quiet Evergreen give this palette its rich, subdued depth. The red is clear enough to stand apart from the earthier ochre without making the whole combination feel bright. In the website preview, muted blue surrounds the red and buff shapes, ochre forms the round detail, and evergreen anchors the small action. Vermilion also carries the website headline; the mobile and card previews use dark supporting ink on blue to keep their lettering distinct.",
+    [
+      2,
+      0,
+      1,
+      4,
+      3
+    ]
   ]
 };
