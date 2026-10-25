@@ -1,5 +1,143 @@
 export const dailyPalettes = [
   {
+    "slug": "summer-relaxed-color-palette",
+    "title": "Summer relaxed color palette",
+    "image": "summer-relaxed-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Summer",
+      "Neutral",
+      "Blue",
+      "Gray",
+      "Brown",
+      "White"
+    ],
+    "palette": [
+      [
+        "Ivory Haze",
+        "D5D6CF"
+      ],
+      [
+        "Quiet Silver Blue",
+        "BFCACF"
+      ],
+      [
+        "Assured Blue",
+        "124882"
+      ],
+      [
+        "Warm Camel",
+        "BF996C"
+      ],
+      [
+        "Deep Espresso",
+        "2E1F16"
+      ]
+    ],
+    "photoCredit": {
+      "name": "Hutomo Abrianto",
+      "profileUrl": "https://unsplash.com/@hutomoabrianto",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/9mPl0Zo7_gQ"
+    },
+    "datePublished": "2026-10-25",
+    "published": true,
+    "sections": []
+  },
+  {
+    "slug": "vintage-bold-color-palette",
+    "title": "Vintage bold color palette",
+    "image": "vintage-bold-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Vintage",
+      "Vivid",
+      "Red",
+      "Teal",
+      "Brown",
+      "Black"
+    ],
+    "palette": [
+      [
+        "Warm Satin",
+        "C2A685"
+      ],
+      [
+        "Quiet Taupe",
+        "BEA991"
+      ],
+      [
+        "Bold Carmine",
+        "AF0009"
+      ],
+      [
+        "Soft Black",
+        "272D25"
+      ],
+      [
+        "Deep Petrol",
+        "02506B"
+      ]
+    ],
+    "photoCredit": {
+      "name": "Kseniia Poroshkova",
+      "profileUrl": "https://unsplash.com/@ksulazypie",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/R39ssRQ67Jw"
+    },
+    "datePublished": "2026-10-25",
+    "published": true,
+    "sections": []
+  },
+  {
+    "slug": "autumn-golden-color-palette",
+    "title": "Autumn golden color palette",
+    "image": "autumn-golden-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Autumn",
+      "Vivid",
+      "Yellow",
+      "Green",
+      "Brown",
+      "White"
+    ],
+    "palette": [
+      [
+        "Pale Linen",
+        "E5E0D2"
+      ],
+      [
+        "Burnished Ochre",
+        "9A7133"
+      ],
+      [
+        "Electric Citron",
+        "ECE114"
+      ],
+      [
+        "Muted Olive",
+        "474806"
+      ],
+      [
+        "Warm Charcoal",
+        "3C382D"
+      ]
+    ],
+    "photoCredit": {
+      "name": "margot pandone",
+      "profileUrl": "https://unsplash.com/@margot_pandone",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/asZvnGnpL7Q"
+    },
+    "datePublished": "2026-10-25",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "autumn-rich-color-palette",
     "title": "Autumn rich color palette",
     "image": "autumn-rich-color-palette.png",

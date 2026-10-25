@@ -119,5 +119,38 @@ export const paletteNotes = {
       4,
       3
     ]
+  ],
+  "summer-relaxed-color-palette": [
+    "A clear blue within gentle neutrals",
+    "Assured Blue gives this otherwise soft combination a clear centre of attention. Ivory Haze and Quiet Silver Blue sit close in lightness but differ in temperature, while Warm Camel introduces a warmer middle value and Deep Espresso adds a firm, brown-black edge. In the previews, ivory frames the blue upright shape, silver-blue circle and camel detail. The website headline stays blue, with espresso keeping the smaller action distinct. Together, the five colours feel quiet without becoming a single flat wash of beige.",
+    [
+      2,
+      3,
+      0,
+      4,
+      1
+    ]
+  ],
+  "vintage-bold-color-palette": [
+    "Carmine and petrol, softened by warm taupe",
+    "Bold Carmine and Deep Petrol give this palette two confident colour directions: a warm, concentrated red and a cool, dark blue-green. Warm Satin and Quiet Taupe are close companions, softening the jump between those stronger hues, while Soft Black keeps the darkest value slightly green rather than neutral. The website preview pairs a carmine headline and upright shape with a petrol detail and taupe circle on satin. The darker action stays separate from the red, so the red can remain a visual feature rather than doing every job.",
+    [
+      2,
+      4,
+      0,
+      3,
+      1
+    ]
+  ],
+  "autumn-golden-color-palette": [
+    "Citron brightness with an olive undertone",
+    "Electric Citron is much brighter than the other four colours, but its yellow character connects it to both Burnished Ochre and Muted Olive. Pale Linen adds a softer, warmer light value, and Warm Charcoal completes the combination without the sharpness of pure black. The previews place an olive upright shape, ochre circle and small citron shape together on linen. Olive also carries the website headline, leaving the citron free to stand out as colour rather than small text. The result has an earthy base with one deliberately lively note.",
+    [
+      3,
+      2,
+      0,
+      4,
+      1
+    ]
   ]
 };
