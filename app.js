@@ -1,5 +1,5 @@
-import {posts,seasons,tones,colors,info} from './content.mjs?v=20261025-batch';
-import {listing,esc,matches,card} from './render.mjs?v=20261025-batch';
+import {posts,seasons,tones,colors,info} from './content.mjs?v=20261026-daily';
+import {listing,esc,matches,card} from './render.mjs?v=20261026-daily';
 const main=document.querySelector('main'), panel=document.querySelector('.panel'), toggle=document.querySelector('.menu-toggle');
 const params=new URLSearchParams(location.search);
 let filter=params.get('filter')||'', query=params.get('q')||'', page=Number(params.get('page'))||1;

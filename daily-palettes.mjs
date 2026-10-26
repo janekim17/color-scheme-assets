@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "vintage-warm-color-palette",
+    "title": "Vintage warm color palette",
+    "image": "vintage-warm-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Vintage",
+      "Pastel",
+      "Pink",
+      "Brown",
+      "Green"
+    ],
+    "palette": [
+      [
+        "Warm Coral",
+        "E17E68"
+      ],
+      [
+        "Dusty Blush",
+        "C5998B"
+      ],
+      [
+        "Deep Cocoa",
+        "3B201E"
+      ],
+      [
+        "Dark Olive",
+        "213A0C"
+      ],
+      [
+        "Soft Taupe",
+        "B58A7B"
+      ]
+    ],
+    "photoCredit": {
+      "name": "Tirza van Dijk",
+      "profileUrl": "https://unsplash.com/@tirzavandijk",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/cNGUw-CEsp0"
+    },
+    "datePublished": "2026-10-26",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "summer-relaxed-color-palette",
     "title": "Summer relaxed color palette",
     "image": "summer-relaxed-color-palette.png",

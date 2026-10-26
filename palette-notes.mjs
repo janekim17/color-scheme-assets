@@ -152,5 +152,16 @@ export const paletteNotes = {
       4,
       1
     ]
+  ],
+  "vintage-warm-color-palette": [
+    "Warm coral with a quieter, darker edge",
+    "Warm Coral adds a clear peach-red note to Dusty Blush and Soft Taupe, two muted colours that sit close together in lightness. Deep Cocoa deepens the warm side of the palette, while Dark Olive introduces a distinctly greener shadow. In the previews, a cocoa upright shape and coral circle sit on blush; taupe adds a smaller connecting shape, and olive keeps the action separate from the warm colours. The close pink and taupe values make the combination feel soft, while the two different darks keep it from becoming uniformly sweet.",
+    [
+      2,
+      4,
+      1,
+      3,
+      0
+    ]
   ]
 };
