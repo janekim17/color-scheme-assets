@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "summer-fresh-color-palette",
+    "title": "Summer fresh color palette",
+    "image": "summer-fresh-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Summer",
+      "Vivid",
+      "Blue",
+      "Yellow",
+      "Green"
+    ],
+    "palette": [
+      [
+        "Airy Blue",
+        "BFE4F6"
+      ],
+      [
+        "Soft Citron",
+        "F5E96D"
+      ],
+      [
+        "Deep Olive",
+        "2E4D0E"
+      ],
+      [
+        "Green Black",
+        "0E2204"
+      ],
+      [
+        "Assured Green",
+        "577C29"
+      ]
+    ],
+    "photoCredit": {
+      "name": "Anna Sullivan",
+      "profileUrl": "https://unsplash.com/@aesullivan2010",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/DT7KWzIvhjY"
+    },
+    "datePublished": "2026-10-27",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "vintage-warm-color-palette",
     "title": "Vintage warm color palette",
     "image": "vintage-warm-color-palette.png",

@@ -163,5 +163,16 @@ export const paletteNotes = {
       3,
       0
     ]
+  ],
+  "summer-fresh-color-palette": [
+    "Pale blue and citron, anchored by green",
+    "Airy Blue and Soft Citron give this palette two light colours with very different temperatures. Deep Olive and Assured Green form a warmer green middle, while Green Black brings the deepest value without losing that green cast. The previews place a deep olive upright shape, a citron circle and a smaller medium-green shape on blue. The green shapes stay apart so their difference is visible; the near-black action gives the light colours a firm edge. Together, the five colours balance a fresh, open feeling with enough depth to avoid a washed-out result.",
+    [
+      2,
+      4,
+      0,
+      3,
+      1
+    ]
   ]
 };
