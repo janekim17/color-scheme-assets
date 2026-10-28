@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "summer-playful-color-palette",
+    "title": "Summer playful color palette",
+    "image": "summer-playful-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Summer",
+      "Vivid",
+      "Teal",
+      "Yellow",
+      "Orange"
+    ],
+    "palette": [
+      [
+        "Soft Teal",
+        "71B1BB"
+      ],
+      [
+        "Lively Yellow",
+        "FCDA00"
+      ],
+      [
+        "Golden Orange",
+        "FDB000"
+      ],
+      [
+        "Bold Amber",
+        "DD6600"
+      ],
+      [
+        "Muted Gold",
+        "C9AB00"
+      ]
+    ],
+    "photoCredit": {
+      "name": "Mae Mu",
+      "profileUrl": "https://unsplash.com/@picoftasty",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/NDtcHl4iDMY"
+    },
+    "datePublished": "2026-10-28",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "summer-fresh-color-palette",
     "title": "Summer fresh color palette",
     "image": "summer-fresh-color-palette.png",

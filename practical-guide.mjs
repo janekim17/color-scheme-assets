@@ -1,4 +1,4 @@
-import {paletteNotes} from './palette-notes.mjs?v=20261027-daily';
+import {paletteNotes} from './palette-notes.mjs?v=20261028-daily';
 import {roseClearBody} from './rose-tabs-preview.mjs';
 import {contrast} from './color-roles.mjs';
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

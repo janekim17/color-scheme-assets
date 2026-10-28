@@ -174,5 +174,16 @@ export const paletteNotes = {
       3,
       1
     ]
+  ],
+  "summer-playful-color-palette": [
+    "A cool pause among warm, lively colours",
+    "Lively Yellow and Golden Orange give this palette its clear, bright energy. Bold Amber adds a redder, deeper note, while Muted Gold softens the step between yellow and orange. Soft Teal is the cool counterweight: its quieter saturation keeps the four warm colours from feeling equally intense. The previews bring teal into the main field, set amber beside a yellow circle, and keep the smaller orange shape separate so its edge stays visible. This is a cheerful palette built on temperature differences rather than a strong light-to-dark range; dark supporting text keeps the small details readable.",
+    [
+      3,
+      2,
+      0,
+      4,
+      1
+    ]
   ]
 };
