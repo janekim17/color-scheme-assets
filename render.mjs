@@ -1,9 +1,9 @@
-import {practicalGuide} from './practical-guide.mjs?v=20261028-daily';
+import {practicalGuide} from './practical-guide.mjs?v=20261029-daily';
 import {pickerInvitation} from './picker-invitation.mjs';
 import {seasonalGuide} from './seasonal-guides.mjs';
 import {winterGuide} from './winter-guide.mjs';
 import {guideHub} from './color-basics.mjs';
-import {posts,info} from './content.mjs?v=20261028-daily';
+import {posts,info} from './content.mjs?v=20261029-daily';
 import {roseGuide} from './rose-guide.mjs';
 export const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function card(p){const meta=p.labels.filter(x=>['Spring','Summer','Autumn','Winter','Vivid','Pastel','Neutral','Vintage'].includes(x)).slice(0,2).join(' · ');return `<a class="card" href="${p.slug}.html"><img src="studio-${esc(p.image)}" alt="${esc(p.title)} — photograph and five-color palette" width="430" height="430" loading="lazy"><span class="card-meta">${esc(meta)}</span><h2>${esc(p.title)}</h2></a>`}

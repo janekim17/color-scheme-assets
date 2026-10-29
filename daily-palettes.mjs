@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "spring-gentle-color-palette",
+    "title": "Spring gentle color palette",
+    "image": "spring-gentle-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Spring",
+      "Pastel",
+      "Pink",
+      "Green",
+      "Yellow"
+    ],
+    "palette": [
+      [
+        "Soft Ivory",
+        "E4E0DD"
+      ],
+      [
+        "Quiet Blush",
+        "DDC6C2"
+      ],
+      [
+        "Muted Olive",
+        "59572B"
+      ],
+      [
+        "Soft Gold",
+        "C7AE62"
+      ],
+      [
+        "Olive Black",
+        "1B1B0D"
+      ]
+    ],
+    "photoCredit": {
+      "name": "sander traa",
+      "profileUrl": "https://unsplash.com/@sandertraa",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/jS0UBuUxAZ4"
+    },
+    "datePublished": "2026-10-29",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "summer-playful-color-palette",
     "title": "Summer playful color palette",
     "image": "summer-playful-color-palette.png",

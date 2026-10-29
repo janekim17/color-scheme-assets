@@ -185,5 +185,16 @@ export const paletteNotes = {
       4,
       1
     ]
+  ],
+  "spring-gentle-color-palette": [
+    "Blush softness with an olive undertone",
+    "Quiet Blush and Soft Ivory sit close in lightness, but their undertones make the distinction: one is gently pink, the other a warmer neutral. Muted Olive introduces a subdued yellow-green, and Soft Gold echoes its warmth at a lighter value. Olive Black gives this quiet palette a definite dark end without a cool, blue-black edge. In the previews, blush surrounds an olive upright shape and a gold circle, with a small ivory shape providing a pale interruption. The near-black action and lettering add definition while the larger colour areas keep their gentle character.",
+    [
+      2,
+      0,
+      1,
+      4,
+      3
+    ]
   ]
 };
