@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "vintage-mellow-color-palette",
+    "title": "Vintage mellow color palette",
+    "image": "vintage-mellow-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Vintage",
+      "Pastel",
+      "Brown",
+      "Pink",
+      "Green"
+    ],
+    "palette": [
+      [
+        "Quiet Beige",
+        "BDB398"
+      ],
+      [
+        "Soft Taupe",
+        "A48479"
+      ],
+      [
+        "Dusty Rose",
+        "B87062"
+      ],
+      [
+        "Gentle Olive",
+        "6F7655"
+      ],
+      [
+        "Deep Olive",
+        "343E25"
+      ]
+    ],
+    "photoCredit": {
+      "name": "360floralflaves",
+      "profileUrl": "https://unsplash.com/@360floralflaves",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/_E1pmtCtyyU"
+    },
+    "datePublished": "2026-10-30",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "spring-gentle-color-palette",
     "title": "Spring gentle color palette",
     "image": "spring-gentle-color-palette.png",

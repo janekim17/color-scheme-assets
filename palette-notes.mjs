@@ -196,5 +196,16 @@ export const paletteNotes = {
       4,
       3
     ]
+  ],
+  "vintage-mellow-color-palette": [
+    "Warm rose, softened by beige and olive",
+    "Dusty Rose brings the warmest colour into this subdued palette, while Soft Taupe carries a quieter pink-brown undertone. Quiet Beige is lighter and more yellow, giving the two rosy colours a gentle change of temperature. Gentle Olive and Deep Olive introduce a green pair with a clear difference in depth. In the previews, beige holds a rose upright shape, a taupe circle and a smaller gentle-olive shape. The deepest olive anchors the action, keeping its light lettering clear against the softer colours. The result feels mellow through shared softness, while the warm rose and cooler greens remain distinct.",
+    [
+      2,
+      3,
+      0,
+      4,
+      1
+    ]
   ]
 };
