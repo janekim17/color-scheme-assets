@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "winter-bold-color-palette",
+    "title": "Winter bold color palette",
+    "image": "winter-bold-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Winter",
+      "Vivid",
+      "Red",
+      "Teal",
+      "Blue"
+    ],
+    "palette": [
+      [
+        "Pale Ice",
+        "C2D5DB"
+      ],
+      [
+        "Clear Blue",
+        "7FB9D1"
+      ],
+      [
+        "Deep Cyan",
+        "05698B"
+      ],
+      [
+        "Vivid Red",
+        "A40100"
+      ],
+      [
+        "Blue Black",
+        "06141D"
+      ]
+    ],
+    "photoCredit": {
+      "name": "Clark Van Der Beken",
+      "profileUrl": "https://unsplash.com/@snapsbyclark",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/ihgvzOcEB2Q"
+    },
+    "datePublished": "2026-11-02",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "vintage-mellow-color-palette",
     "title": "Vintage mellow color palette",
     "image": "vintage-mellow-color-palette.png",

@@ -207,5 +207,16 @@ export const paletteNotes = {
       4,
       1
     ]
+  ],
+  "winter-bold-color-palette": [
+    "A cool blue range with one decisive red",
+    "Pale Ice, Clear Blue and Deep Cyan form a cool progression from light and quiet to saturated and deep. Blue Black extends that range into shadow without turning neutral grey. Vivid Red interrupts the blue family with a concentrated warm note, so the palette feels crisp rather than uniformly icy. The previews put a red upright shape and a smaller cyan shape on a pale field, beside a clear-blue circle. The two saturated shapes stay separate so neither loses its edge. A blue-black action supplies the strongest dark value, leaving the red as a distinct colour accent rather than the only source of contrast.",
+    [
+      3,
+      2,
+      0,
+      4,
+      1
+    ]
   ]
 };
