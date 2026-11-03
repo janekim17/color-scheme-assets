@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "summer-spirited-color-palette",
+    "title": "Summer spirited color palette",
+    "image": "summer-spirited-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Summer",
+      "Vivid",
+      "Purple",
+      "Orange",
+      "Green"
+    ],
+    "palette": [
+      [
+        "Soft Violet",
+        "6D63A2"
+      ],
+      [
+        "Warm Amber",
+        "F7B952"
+      ],
+      [
+        "Lively Orange",
+        "DD7538"
+      ],
+      [
+        "Clear Green",
+        "4E9062"
+      ],
+      [
+        "Deep Indigo",
+        "3E3F75"
+      ]
+    ],
+    "photoCredit": {
+      "name": "Andre Taissin",
+      "profileUrl": "https://unsplash.com/@andretaissin",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/JDEY58Ab1E8"
+    },
+    "datePublished": "2026-11-03",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "winter-bold-color-palette",
     "title": "Winter bold color palette",
     "image": "winter-bold-color-palette.png",

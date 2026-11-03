@@ -218,5 +218,16 @@ export const paletteNotes = {
       4,
       1
     ]
+  ],
+  "summer-spirited-color-palette": [
+    "Warm amber with violet and green counterpoints",
+    "Warm Amber gives this palette its lightest, sunniest value, and Lively Orange brings a stronger red-orange warmth. Soft Violet and Deep Indigo create a cool pair with a visible difference in depth. Clear Green supplies a third hue family, keeping the relationship lively instead of simply alternating orange and purple. The previews place an indigo upright shape, a smaller orange shape and a green circle on amber. Violet carries the action, with light lettering that stays clear against it. Together, the five colours feel spirited through their hue differences, while the deeper indigo gives the warm field a firm visual anchor.",
+    [
+      4,
+      2,
+      1,
+      0,
+      3
+    ]
   ]
 };
