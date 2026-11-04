@@ -229,5 +229,16 @@ export const paletteNotes = {
       0,
       3
     ]
+  ],
+  "summer-balanced-color-palette": [
+    "Clear cyan against a quieter golden range",
+    "Clear Cyan is the only distinctly cool, vivid hue in this set. Muted Ochre and Deep Olive Gold share a warm yellow direction, but their different depths keep the palette from becoming one flat gold. Pale Ecru links that warmth to the almost neutral Soft Chalk. In the previews, cyan forms the large field and the card background, with a pale ecru upright shape, an ochre block and a chalk circle. Deep Olive Gold carries the action, while pale ecru frames the card. Light lettering on that deeper shade stays distinct; the card uses dark ink so its title remains readable against cyan. The balance comes from one clear blue-green hue meeting a broader, quieter warm range.",
+    [
+      1,
+      3,
+      2,
+      4,
+      0
+    ]
   ]
 };

@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "summer-balanced-color-palette",
+    "title": "Summer balanced color palette",
+    "image": "summer-balanced-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Summer",
+      "Vivid",
+      "Blue",
+      "Yellow",
+      "Brown"
+    ],
+    "palette": [
+      [
+        "Soft Chalk",
+        "EBECE6"
+      ],
+      [
+        "Pale Ecru",
+        "D7D3B6"
+      ],
+      [
+        "Clear Cyan",
+        "2AA8DB"
+      ],
+      [
+        "Muted Ochre",
+        "A58520"
+      ],
+      [
+        "Deep Olive Gold",
+        "765E16"
+      ]
+    ],
+    "photoCredit": {
+      "name": "R Ra",
+      "profileUrl": "https://unsplash.com/@renran",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/eDKlDZw9QCk"
+    },
+    "datePublished": "2026-11-04",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "summer-spirited-color-palette",
     "title": "Summer spirited color palette",
     "image": "summer-spirited-color-palette.png",
