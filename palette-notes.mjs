@@ -221,7 +221,7 @@ export const paletteNotes = {
   ],
   "summer-spirited-color-palette": [
     "Warm amber with violet and green counterpoints",
-    "Warm Amber gives this palette its lightest, sunniest value, and Lively Orange brings a stronger red-orange warmth. Soft Violet and Deep Indigo create a cool pair with a visible difference in depth. Clear Green supplies a third hue family, keeping the relationship lively instead of simply alternating orange and purple. The previews place an indigo upright shape, a smaller orange shape and a green circle on amber. Violet carries the action, with light lettering that stays clear against it. Together, the five colours feel spirited through their hue differences, while the deeper indigo gives the warm field a firm visual anchor.",
+    "Warm Amber and Lively Orange are both warm, but they behave differently behind dark text. Amber is lighter and gives Deep Indigo more contrast. The two labels below show the trade-off using the same text and the same type size. Soft Violet and Clear Green add cooler notes around the labels, so the full five-color palette remains visible.",
     [
       4,
       2,
@@ -239,6 +239,17 @@ export const paletteNotes = {
       2,
       4,
       0
+    ]
+  ],
+  "vintage-soft-color-palette": [
+    "Soft warm tones with an ink navy anchor",
+    "Warm Linen and Muted Blush sit close in lightness. The blush has a redder cast, so it can mark a separate surface without making the palette feel sharply divided. Soft Gold is more saturated and carries a small accent clearly. Quiet Sage adds an olive note between the pale colors and the deep Ink Navy. In the examples, linen provides the field, navy anchors the headline, and gold appears in small shapes. The muted pink circle keeps the warm field soft, while the sage action uses dark lettering.",
+    [
+      4,
+      1,
+      0,
+      3,
+      2
     ]
   ]
 };

@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "vintage-soft-color-palette",
+    "title": "Vintage soft color palette",
+    "image": "vintage-soft-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Vintage",
+      "Pink",
+      "Green",
+      "Blue",
+      "Yellow"
+    ],
+    "palette": [
+      [
+        "Warm Linen",
+        "E2D2C2"
+      ],
+      [
+        "Soft Gold",
+        "D7A448"
+      ],
+      [
+        "Muted Blush",
+        "D3B6B0"
+      ],
+      [
+        "Quiet Sage",
+        "828B6C"
+      ],
+      [
+        "Ink Navy",
+        "2A2E3A"
+      ]
+    ],
+    "photoCredit": {
+      "name": "Ekaterina Grosheva",
+      "profileUrl": "https://unsplash.com/@kitkat93",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/wgRD0Lfe43Q"
+    },
+    "datePublished": "2026-11-06",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "summer-balanced-color-palette",
     "title": "Summer balanced color palette",
     "image": "summer-balanced-color-palette.png",
