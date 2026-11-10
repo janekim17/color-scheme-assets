@@ -1,0 +1,6 @@
+.duotone-ramp{padding:22px;background:#f1eee7;border:1px solid #daddd3;margin:25px 0}
+.duotone-ramp figcaption{font:600 16px/1.5 Arial,sans-serif;color:#283d42;margin-bottom:16px}
+.duotone-ramp>div{display:flex;height:100px}
+.duotone-ramp i{display:block;flex:1}
+.learn-article .duotone-ramp p{font-size:12px;line-height:1.8;margin:15px 0 0;color:#46574c}
+@media(max-width:600px){.duotone-ramp{padding:16px}.duotone-ramp>div{height:80px}}

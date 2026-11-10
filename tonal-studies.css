@@ -1,0 +1,26 @@
+.tonal-studies .tonal-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:22px}
+.tonal-studies figure{margin:0;min-width:0}
+.tonal-studies figcaption{font:12px/1.8 Arial,sans-serif;color:#46574c;margin-top:12px}
+.tonal-studies figcaption b{display:block;color:#283d42;font-size:13px;margin-bottom:4px}
+.tonal-print,.tonal-label{box-sizing:border-box;position:relative;min-height:260px;padding:25px;overflow:hidden}
+.tonal-print small,.tonal-label small{position:relative;z-index:1;font:10px/1.6 Arial,sans-serif;letter-spacing:1.6px}
+.tonal-print strong,.tonal-label strong{display:block;position:relative;z-index:1;font:400 36px/1.08 Georgia,serif;margin-top:28px;letter-spacing:-.8px}
+.tonal-print em,.tonal-label em{font-weight:400}
+.lilac-light{background:#e8e4e1;color:#6b5c57}
+.lilac-deep{background:#6b5c57;color:#e8e4e1}
+.tonal-arch{position:absolute;width:115px;height:155px;border-radius:70px 70px 0 0;background:#d5c3db;right:-24px;bottom:0}
+.lilac-deep .tonal-arch{width:85px;height:115px;right:12px}
+.tonal-line{position:absolute;bottom:28px;left:25px;width:72px;height:4px;background:#d7cdb2}
+.tonal-dot{position:absolute;right:42px;bottom:27px;width:40px;height:40px;border-radius:50%;background:#c4adbd}
+.lilac-deep .tonal-dot{right:80px;bottom:83px}
+.tonal-label{min-height:245px;color:#2a2e3a}
+.vintage-gold{background:#d7a448}
+.vintage-sage{background:#828b6c}
+.tonal-bands{display:flex;position:absolute;bottom:0;left:0;right:0;height:35px}
+.tonal-bands i{display:block;flex:1;background:#e2d2c2}
+.vintage-gold .tonal-bands i:nth-child(2){background:#d3b6b0;flex:1.5}
+.vintage-gold .tonal-bands i:nth-child(3){background:#828b6c;flex:.5}
+.vintage-sage .tonal-bands i:nth-child(2){background:#d3b6b0}
+.vintage-sage .tonal-bands i:nth-child(3){background:#d7a448;flex:.25}
+@media(max-width:650px){.tonal-studies .tonal-pair{grid-template-columns:1fr}.tonal-print,.tonal-label{min-height:240px}.tonal-print strong,.tonal-label strong{font-size:34px}}
+.vintage-sage small{color:#111827}

@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "spring-hushed-color-palette",
+    "title": "Spring hushed color palette",
+    "image": "spring-hushed-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Spring",
+      "Pastel",
+      "Purple",
+      "Pink",
+      "Brown"
+    ],
+    "palette": [
+      [
+        "Chalk White",
+        "E8E4E1"
+      ],
+      [
+        "Warm Ecru",
+        "D7CDB2"
+      ],
+      [
+        "Powder Lilac",
+        "D5C3DB"
+      ],
+      [
+        "Grey Rose",
+        "C4ADBD"
+      ],
+      [
+        "Soft Cocoa",
+        "6B5C57"
+      ]
+    ],
+    "photoCredit": {
+      "name": "micheile henderson",
+      "profileUrl": "https://unsplash.com/@micheile",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/PqljoawTSRk"
+    },
+    "datePublished": "2026-11-10",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "vintage-soft-color-palette",
     "title": "Vintage soft color palette",
     "image": "vintage-soft-color-palette.png",
@@ -42,7 +87,8 @@ export const dailyPalettes = [
     },
     "datePublished": "2026-11-06",
     "published": true,
-    "sections": []
+    "sections": [],
+    "dateModified": "2026-11-10"
   },
   {
     "slug": "summer-balanced-color-palette",

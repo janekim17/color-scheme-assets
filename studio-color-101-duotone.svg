@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<rect width="1200" height="1200" fill="#f1eee7"/>
+<g fill="#283d42"><text x="90" y="112" font-family="Arial" font-size="30" letter-spacing="5">COLOR 101</text><text x="1090" y="112" font-family="Arial" font-size="30">24</text>
+<text x="90" y="300" font-family="Georgia" font-size="98">Monochrome.</text><text x="90" y="420" font-family="Georgia" font-size="98">Duotone.</text>
+<text x="90" y="525" font-family="Arial" font-size="25" letter-spacing="2">HUE, TONE AND REPRODUCTION</text></g>
+<rect x="90" y="630" width="204" height="130" fill="#17334d"/><rect x="294" y="630" width="204" height="130" fill="#2a5274"/><rect x="498" y="630" width="204" height="130" fill="#6387a6"/><rect x="702" y="630" width="204" height="130" fill="#a9bfd1"/><rect x="906" y="630" width="204" height="130" fill="#e0e8ef"/>
+<rect x="90" y="800" width="204" height="130" fill="#173b43"/><rect x="294" y="800" width="204" height="130" fill="#4b6365"/><rect x="498" y="800" width="204" height="130" fill="#7e8a88"/><rect x="702" y="800" width="204" height="130" fill="#b2b2aa"/><rect x="906" y="800" width="204" height="130" fill="#e5d9cc"/>
+<g fill="#283d42" font-family="Arial" font-size="20"><text x="90" y="1080">COLOUR AND REPRODUCTION</text><text x="90" y="1135">Color Scheme Studio</text></g></svg>

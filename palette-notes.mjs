@@ -243,7 +243,18 @@ export const paletteNotes = {
   ],
   "vintage-soft-color-palette": [
     "Soft warm tones with an ink navy anchor",
-    "Warm Linen and Muted Blush sit close in lightness. The blush has a redder cast, so it can mark a separate surface without making the palette feel sharply divided. Soft Gold is more saturated and carries a small accent clearly. Quiet Sage adds an olive note between the pale colors and the deep Ink Navy. In the examples, linen provides the field, navy anchors the headline, and gold appears in small shapes. The muted pink circle keeps the warm field soft, while the sage action uses dark lettering.",
+    "Warm Linen and Muted Blush are the pale warm pair in this palette. Quiet Sage turns toward olive, Soft Gold adds a stronger yellow note, and Ink Navy supplies the deepest value. The label studies below enlarge gold in one version and sage in the other. The same-sized navy lettering remains clear in both. Gold makes the first composition feel warmer and more emphatic. Moving gold to a narrow band gives the sage version a more subdued rhythm. Linen and blush keep both studies connected through the lighter edge.",
+    [
+      4,
+      1,
+      0,
+      3,
+      2
+    ]
+  ],
+  "spring-hushed-color-palette": [
+    "Lilac and ecru with a soft cocoa depth",
+    "Powder Lilac brings a cool violet note to a group of pale, muted colours. Grey Rose is deeper and redder, while Warm Ecru shifts the combination toward yellow. Chalk White gives these close values a light reference. Soft Cocoa supplies the strongest depth without the sharpness of a near-black. The two small compositions keep all five colours and change their area. With chalk as the main field, lilac feels airy. With cocoa enlarged, the same pale accents feel more enclosed and deliberate. The colour relationships stay gentle while the overall weight changes.",
     [
       4,
       1,
