@@ -1,5 +1,50 @@
 export const dailyPalettes = [
   {
+    "slug": "autumn-rust-color-palette",
+    "title": "Autumn rust color palette",
+    "image": "autumn-rust-color-palette.png",
+    "imageWidth": 1200,
+    "imageHeight": 1200,
+    "labels": [
+      "Autumn",
+      "Neutral",
+      "Brown",
+      "Orange",
+      "Gray"
+    ],
+    "palette": [
+      [
+        "Pale Stone",
+        "C9C5BA"
+      ],
+      [
+        "Warm Putty",
+        "B4ACA1"
+      ],
+      [
+        "Muted Taupe",
+        "918674"
+      ],
+      [
+        "Deep Rust",
+        "863506"
+      ],
+      [
+        "Dark Umber",
+        "3D301D"
+      ]
+    ],
+    "photoCredit": {
+      "name": "Veronika Martinelli",
+      "profileUrl": "https://unsplash.com/@veronikamartinelli",
+      "source": "Unsplash",
+      "photoUrl": "https://unsplash.com/photos/xUGh-Z-fgag"
+    },
+    "datePublished": "2026-11-12",
+    "published": true,
+    "sections": []
+  },
+  {
     "slug": "spring-hushed-color-palette",
     "title": "Spring hushed color palette",
     "image": "spring-hushed-color-palette.png",
@@ -133,7 +178,8 @@ export const dailyPalettes = [
     },
     "datePublished": "2026-11-04",
     "published": true,
-    "sections": []
+    "sections": [],
+    "dateModified": "2026-11-12"
   },
   {
     "slug": "summer-spirited-color-palette",
